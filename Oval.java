@@ -4,9 +4,4 @@ public class Oval extends Shape {
     public Oval(String name) {
         super(name);
     }
-
-    @Override
-    public void name() {
-        System.out.println(getName());
-    }
 }

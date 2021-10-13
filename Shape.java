@@ -1,6 +1,6 @@
 package ua.goit.HomeWork7.GraphicsEditor;
 
-public abstract class Shape {
+public class Shape {
     private final String name;
 
     public Shape(String name) {
@@ -10,6 +10,4 @@ public abstract class Shape {
     public String getName() {
         return name;
     }
-
-    abstract void name();
 }
